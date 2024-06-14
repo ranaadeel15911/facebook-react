@@ -29,8 +29,6 @@ function App() {
           appId="1184539069216908"
           onResolve={handleResolve}
           onReject={handleReject}
-          fields='id,first_name,last_name,middle_name,name,name_format,picture,short_name,email,gender'
-          redirect_uri='https://www.google.com/search?q=english+to+urdu&rlz=1C1VDKB_en-GBPK1069PK1069&oq=eng&aqs=chrome.0.69i59l2j0i67i131i433i650j69i57j35i39j0i67i650j0i67i131i433i650l3j0i67i650.1395j0j7&sourceid=chrome&ie=UTF-8'
         >
           <FacebookLoginButton />
         </LoginSocialFacebook>
