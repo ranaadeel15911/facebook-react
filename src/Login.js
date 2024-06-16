@@ -27,7 +27,7 @@ const Login = () => {
     <>
     {!user ? (
         <LoginSocialFacebook
-          appId="1184539069216908"
+          appId="1219463726069784"
           onResolve={handleResolve}
           onReject={handleReject}
         >
